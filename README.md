@@ -20,4 +20,5 @@ The jupyter notebook is suposed to be executed in Watson Studio (the IBM data sc
 2. Copy the IBM Db2 service credentials for future use (connection through ipython-sql package);
 3. After creating an IBM Watson Studio service instance, create a new data science project;
 4. Inside the project screen, go to assets tab and create a new Jupyter Notebook (copy and paste the .ipynb file from this repository at the "import from URL field", and also choose one of the python runtimes);
-5. Now you are ready to execute the jupyter notebook and make queries using the %sql magic.
+5. Write your IBM Db2 service credentials at the designated location insite the setup cells.
+6. Now you are ready to execute the jupyter notebook and make queries using the %sql magic.
